@@ -1,5 +1,5 @@
-let StudentModel = require('../Models/StudentModel.js');
-let SalaryModel = require('../Models/SalaryAddModel.js');
+let StudentModel = require('../models/StudentModel.js');
+let SalaryModel = require('../models/SalaryAddModel.js');
 let mongoose = require('mongoose');
 let ObjectId = mongoose.Types.ObjectId;
 
