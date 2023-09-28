@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 
 const { signup, signIn } = require('../controller/UserController');
-const { requireSignin, isAdmin } = require('../middleware/auth');
+const { requireSignin, isAdmin } = require('../middleware/Auth');
 const { createStudent,saveSalary,CountSalary,TotalSalaryAmount,GetSalaryByStudentId,GetStudent,BatchCount,GetStudentByBatch,SearchStudent,getStudentById} = require('../controller/StudentController');
 
 //Auth Routes
